@@ -1,0 +1,52 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Nuke",
+        "repositoryURL": "https://github.com/kean/Nuke.git",
+        "state": {
+          "branch": null,
+          "revision": "200016df418ed8dc70ba918d52c29634f434541c",
+          "version": "9.5.0"
+        }
+      },
+      {
+        "package": "Starscream",
+        "repositoryURL": "https://github.com/daltoniam/Starscream.git",
+        "state": {
+          "branch": null,
+          "revision": "df8d82047f6654d8e4b655d1b1525c64e1059d21",
+          "version": "4.0.4"
+        }
+      },
+      {
+        "package": "StreamChat",
+        "repositoryURL": "https://github.com/GetStream/stream-chat-swift",
+        "state": {
+          "branch": null,
+          "revision": "739328cad1c3bfba8843df77bd9f7a4585df7f58",
+          "version": "3.1.6"
+        }
+      },
+      {
+        "package": "IBMSwiftSDKCore",
+        "repositoryURL": "https://github.com/IBM/swift-sdk-core",
+        "state": {
+          "branch": null,
+          "revision": "7e3b9b2cf8acb6e7fa4c8d257d1e255f6008332f",
+          "version": "1.1.2"
+        }
+      },
+      {
+        "package": "SwiftyGif",
+        "repositoryURL": "https://github.com/kirualex/SwiftyGif.git",
+        "state": {
+          "branch": null,
+          "revision": "0cd770feed5807d9fd4fa8df5ad74b56b814b0c8",
+          "version": "5.4.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
