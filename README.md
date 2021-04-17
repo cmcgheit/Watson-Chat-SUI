@@ -2,19 +2,18 @@
 
 Chat app with Stream Chat API and IBM Watson Chat API.
 
-<img src="/Resources/" width="400" height="700" />
-
-[App Store Link]()
-
 # Included:
 
-- [StreamChat]()
-- [IBM-Watson]()
+- [StreamChat](https://github.com/GetStream/stream-chat-swift)
+- [IBM-Watson](https://github.com/IBM/swift-sdk-core)
 
 
 ### Things to Update
 
 - [ ] IBM Integration 
+- [ ] log out user function
+- [ ] delete channels function
+- [ ] fix environment preview object for previews
 
 # Screenshots
 

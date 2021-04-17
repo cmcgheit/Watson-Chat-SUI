@@ -12,7 +12,7 @@ struct MessageRowView: View {
     var body: some View {
         
         HStack{
-
+            
             if messsage.isSentByCurrentUser {
                 Spacer()
             }
@@ -33,13 +33,13 @@ struct MessageRowView: View {
                 })
                 .padding([.horizontal,.top])
                 .padding(.bottom,8)
-     
+                
                 .background(messsage.isSentByCurrentUser ? Color.blue : Color.gray.opacity(0.4))
                 .clipShape(ChatBubble(corners: messsage.isSentByCurrentUser ? [.topLeft,.topRight,.bottomLeft] : [.topLeft,.topRight,.bottomRight]))
                 .foregroundColor(messsage.isSentByCurrentUser ? .white : .primary)
                 .frame(width: UIScreen.main.bounds.width - 150,alignment: messsage.isSentByCurrentUser ? .trailing : .leading)
                 
-
+                
                 if messsage.isSentByCurrentUser {
                     UserView(message: messsage)
                         .offset(y: 10.0)

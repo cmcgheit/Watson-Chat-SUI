@@ -72,7 +72,7 @@ class ChatViewModel: ObservableObject {
         let normalizedChannelName = channelName.replacingOccurrences(of: " ", with: "-")
         
         let newChannel = ChannelId(type: .messaging, id: normalizedChannelName)
-
+        
         let request = try! ChatClient.shared.channelController(createChannelWithId: newChannel, name: normalizedChannelName, imageURL: nil, extraData: .defaultValue)
         
         request.synchronize { err in

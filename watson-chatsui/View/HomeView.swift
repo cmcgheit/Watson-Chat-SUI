@@ -29,7 +29,7 @@ struct HomeView: View {
         .overlay(
             ZStack {
                 if streamData.createNewChannel{CreateNewChannelView()}
-            
+                
                 if streamData.isLoading{LoadingView()}
             }
         )

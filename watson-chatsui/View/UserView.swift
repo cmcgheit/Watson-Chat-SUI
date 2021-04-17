@@ -15,7 +15,7 @@ struct UserView: View {
             .fill(message.isSentByCurrentUser ? Color.blue : Color.gray.opacity(0.4))
             .frame(width: 40, height: 40)
             .overlay(
-     
+                
                 Text("\(String(message.author.id.first!))")
                     .fontWeight(.semibold)
                     .foregroundColor(message.isSentByCurrentUser ? .white : .primary)

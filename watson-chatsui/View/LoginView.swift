@@ -5,8 +5,7 @@ import SwiftUI
 struct LoginView: View {
     
     @EnvironmentObject var streamData: ChatViewModel
-    
-    // changing based on ColorScheme
+ 
     @Environment(\.colorScheme) var colorScheme
     
     var body: some View {

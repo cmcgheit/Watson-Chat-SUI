@@ -13,9 +13,9 @@ struct ChannelView: View {
        
         ScrollView(.vertical, showsIndicators: false, content: {
             
-            VStack(spacing: 20){
+            VStack(spacing: 20) {
                 
-                if let channels = streamData.channels{
+                if let channels = streamData.channels {
                     
                     ForEach(channels,id: \.channel){ listener in
                      
@@ -34,7 +34,7 @@ struct ChannelView: View {
             }
             .padding()
         })
-        .navigationTitle("Channel")
+        .navigationTitle("Channels")
         
         .toolbar(content: {
             

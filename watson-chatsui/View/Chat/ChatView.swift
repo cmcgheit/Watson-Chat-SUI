@@ -4,11 +4,11 @@ import SwiftUI
 import StreamChat
 
 struct ChatView: View {
- 
+    
     @StateObject var listener: ChatChannelController.ObservableObject
-
+    
     @State var message = ""
-
+    
     @Environment(\.colorScheme) var scheme
     
     var body: some View {
@@ -20,9 +20,9 @@ struct ChatView: View {
             ScrollViewReader { reader in
                 
                 ScrollView(.vertical, showsIndicators: false, content: {
-        
+                    
                     LazyVStack(alignment: .center, spacing: 15, content: {
-
+                        
                         ForEach(listener.messages.reversed(),id: \.self){ msg in
                             
                             // Message Row...
@@ -66,7 +66,7 @@ struct ChatView: View {
         .navigationTitle(channel.cid.id)
     }
     
-    func sendMessage(){
+    func sendMessage() {
         
         
         let channelID = ChannelId(type: .messaging, id: listener.channel?.cid.id ?? "")

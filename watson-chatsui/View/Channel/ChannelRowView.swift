@@ -75,8 +75,8 @@ struct ChannelRowView: View {
             sortChannels()
         })
     }
-
-    func checkIsDateToday(date: Date)-> Bool {
+    
+    func checkIsDateToday(date: Date) -> Bool {
         
         let calender = Calendar.current
         
