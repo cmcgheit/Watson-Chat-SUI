@@ -17,8 +17,5 @@ Chat app with Stream Chat API and IBM Watson Chat API.
 
 # Screenshots
 
-<img src="" width="400" height="700" />
+<img src="/Resources/channels-view.png" width="400" height="700" />
 
-<img src="" width="400" height="700" />
-
-<img src="" width="400" height="700" />
